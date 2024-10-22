@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks_api",
+  "info": {
+    "singularName": "tasks",
+    "pluralName": "tasks-api",
+    "displayName": "tasks"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "conmpleted": {
+      "type": "boolean"
+    }
+  }
+}
